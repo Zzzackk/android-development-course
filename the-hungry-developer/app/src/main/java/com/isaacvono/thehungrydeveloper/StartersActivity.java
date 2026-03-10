@@ -3,20 +3,14 @@ package com.isaacvono.thehungrydeveloper;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 
-public class MainActivity extends AppCompatActivity {
-
-    CardView startersCard;
-    CardView mainsCard;
+public class StartersActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        startersCard = findViewById(R.id.card_view_starters);
-        mainsCard = findViewById(R.id.card_view_mains);
+        setContentView(R.layout.activity_starters);
     }
 }
