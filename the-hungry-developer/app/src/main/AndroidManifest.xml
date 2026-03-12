@@ -13,6 +13,8 @@
         android:theme="@style/Theme.TheHungryDeveloper">
         <activity
             android:name=".StartersActivity"
+            android:label="Starters"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
