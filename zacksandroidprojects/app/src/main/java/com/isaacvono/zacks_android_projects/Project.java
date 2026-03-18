@@ -14,7 +14,4 @@ public class Project {
         this.image = image;
     }
 
-    // Methods
-
-
 }
