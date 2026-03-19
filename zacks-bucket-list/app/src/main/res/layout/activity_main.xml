@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -15,11 +16,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="24dp"
-            android:textColor="@color/white"
+            android:textColor="#999999"
             android:textSize="24sp"
             android:fontFamily="sans-serif-black"
             android:layout_gravity="center"
-            android:text="Zack's Bucket List"/>
+            android:text="ZACK'S BUCKET LIST"/>
 
     </androidx.cardview.widget.CardView>
 
@@ -31,6 +32,8 @@
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="250dp"
+        android:id="@+id/card_view_things"
+        android:layout_marginBottom="40dp"
         app:strokeWidth="2dp"
         app:strokeColor="#E0E0E0"
         app:cardElevation="0dp"
@@ -60,7 +63,45 @@
                 android:fontFamily="sans-serif-black"
                 android:textColor="#999999"
                 android:textSize="20sp"
-                android:text="Things to do"/>
+                tools:text="THINGS TO DO"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="250dp"
+        app:strokeWidth="2dp"
+        app:strokeColor="#E0E0E0"
+        android:id="@+id/card_view_places"
+        app:cardElevation="0dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@color/black"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E0E0E0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="16dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="#999999"
+                android:textSize="20sp"
+                android:text="PLACES TO GO"/>
 
         </LinearLayout>
 
