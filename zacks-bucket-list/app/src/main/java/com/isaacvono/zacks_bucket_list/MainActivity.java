@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent thingsToDoActivityIntent = new Intent(MainActivity.this, ThingsToDoActivity.class);
 
-                setIntent(thingsToDoActivityIntent);
+                startActivity(thingsToDoActivityIntent);
 
             }
         });
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent placesToGoActivityIntent = new Intent(MainActivity.this, PlacesToGoActivity.class);
 
-                setIntent(placesToGoActivityIntent);
+                startActivity(placesToGoActivityIntent);
             }
         }));
 
