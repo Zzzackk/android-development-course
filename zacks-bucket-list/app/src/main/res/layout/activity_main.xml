@@ -48,6 +48,9 @@
 
             <ImageView
                 android:layout_width="match_parent"
+                app:tint="#999999"
+                android:src="@drawable/checklist_ic"
+                android:scaleType="fitCenter"
                 android:layout_height="150dp"/>
 
             <View

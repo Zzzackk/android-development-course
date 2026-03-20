@@ -12,6 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Zacksbucketlist">
         <activity
+            android:name=".PlacesToGoActivity"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThingsToDoActivity"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
