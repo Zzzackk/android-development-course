@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">zacks-bucket-list</string>
+    <string name="app_title">ZACK\'\S BUCKET LIST"</string>
+    <string name="things_category">THINGS TO DO</string>
+    <string name="places_category">PLACES TO GO</string>
 </resources>
